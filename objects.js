@@ -5,6 +5,7 @@ var playlist = {
 function updatePlaylist(obj, artistName, songTitle) {
   obj.artistName = songTitle
   return obj
+  console.log(obj + "here it is")
 }
 
 function removeFromPlaylist(playlist, artistName) {
