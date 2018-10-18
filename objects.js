@@ -3,8 +3,7 @@ var playlist = {
 }
 
 function updatePlaylist(obj, artistName, songTitle) {
-  obj.artistName = songTitle
-  console.log(obj.artistName + "here it is")
+  obj.artistName =`${songTitle}`
   return obj
 }
 
