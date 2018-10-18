@@ -1,4 +1,6 @@
-var playlist = {}
+var playlist = {
+  drake: 'hotline bling'
+}
 
 function updatePlaylist(obj, name, title) {
   obj.name = title
